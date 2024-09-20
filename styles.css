@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+/* Styling for the movie poster */
+.moviePic {
+  height: 400px;
+  width: 300px;
+  opacity: 0.9;
+  display: block;
+  margin: 30px auto; /* Centers the image */
+  border-radius: 10px; /* Adds a slight round border to make it look smoother */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5); /* Adds shadow for depth */
+}
+
+/* Styling for the movie description */
+.movieDetail {
+  position: relative;
+  top: 20px;
+  width: 80%;
+  margin: 0 auto; /* Centers the description */
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for elegance */
+}
